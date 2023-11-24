@@ -1,33 +1,161 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<Title>
-Hamza's Web
-</title>
-  <link rel="icon" type="image/icon" href="assets/kfcguy.png">
-  <style>
-    body{
-      text-align:center;
-    }
-    h1{
-      text-align:center;
-    }
-    image{
-   padding:30%;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style> 
+/*       Hamza se231027 */
+        .table1{
+            width: 95%;
+        }
+        table{
+            width: 85%;
+            
+        }
+        td, th{  
+            width: 80%;
+            padding-top: 5px ;
+            padding-right: 10px;
+       }
+        body{
+            margin: 0;
+            background:linear-gradient(rgb(225,225,225), rgb(225,225,225),rgb(225,225,225));
+        }
+        .head{
+            background-color: rgb(59, 90, 152);
+            height: 70px;
+            width: 100%;
+            border: 1px solid darkblue;
+            font-family: tahoma;
+            padding-left: 10px;
+        }    
+        .heading{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 45px;
+        }
+        .signup{
+        font-size: x-large;
+        }
+        .remember{
+            color: white;
+            font-size: small;
+            opacity: 70%;
+            padding-top: 5px;
+            font-family: tahoma;
+        }
+        .submit{
+            background-color: rgb(73, 110, 183);
+            color: white;
+            border: 0px w;
+        }
+        .footer{
+            font-size: x-small;
+        }
+        .signupbutton{
+            background-color: green;
+            color: rgb(225,225,225);
+        }
+        .bottom{
+            text-align:right;
+            font-size: small;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-right: 40px;
+        }
+        .img{
+            padding-left: 10%;
+            width:450px; 
+            height:220px;
+        }
+
+    </style>
+<!--  Hamza se231027 -->
 </head>
 <body>
-<h1>
-Website under maintenance
-</h1>
-  <h2>If any query leave a message.</h2>
-  <div class="image">
-  <img src="assets/whatsap.png" alt="qr" width="100px">
-      </div>
-  <img src="assets/instaqr.png" alt="qr" width="100px">
-
-    <footer>
-Owned by:Hamza Nizamani.
-    </footer>
+    <div class="head">
+        <table class="table1">
+        <tr class="heading">
+            <td rowspan="3"><b>facebook</b></td>
+        </tr>
+        <tr>
+            <td colspan=2>
+                 <input type="email" placeholder="Email" required>
+            </td>
+            <td>
+                <input type="password" placeholder="Password" required>
+            </td>
+            <td >
+                <input class="submit" type="submit" placeholder="Log in" value="Log in">
+            </td>
+        </tr>
+            <tr>
+            <td colspan="2" class="remember""><input type="checkbox">Remember me</td>
+            <td class="remember"><a href="#" style=color:white;text-decoration:none;">Forgot your password?</a></td>
+           </tr>
+        </table>
+        </div>
+    <table>
+        <tr>
+            <th style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Facebook helps you connect and share with <br>the people in your life.
+            </th>
+            <td class="signup" colspan="2"><b>Sign up</b><br><span style="font-size:medium;font-family:serif" >It's free and anyone can join</span></td>
+        </tr>   
+        <tr>
+            <td rowspan="9">
+              <img class="img" src="friends.png" alt="facebook">
+            </td>
+        </tr>
+    <div>  
+        <tr>
+            <td>First name:</td>
+            <td><input type="text" name="" id=""></td>
+        </tr>
+        <tr><td>Last name:</td>
+            <td><input type="text" name="" id=""></td>
+        </tr>
+        <tr><td>Your email:</td>
+            <td><input type="email" name="" id=""></td>
+        </tr>
+        <tr><td>New Password:</td>
+            <td><input type="password" name="" id=""></td>
+        </tr>
+        <tr><td>I am:</td>
+            <td>
+                <select>
+                    <option value="Select">gender</option>
+                    <option value="Male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </td>
+            </tr>
+            <td>Birthday:</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr class="footer">
+            <td></td>
+            <td><a href="#">Why do i need to provide this?</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input class="signupbutton" type="submit" value="Sign up" >
+            </td>
+        </tr>
+<!--         Hamza Se231027 -->
+    </div>
+    </table>
+    <div class="bottom">
+<table>
+    <tr>
+        <td><hr width="35%" align="right"></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="#">Create a Page</a> For a celebrity,band or business.  
+        </td>
+    </tr>
+</table>
+</div>
 </body>
 </html>
