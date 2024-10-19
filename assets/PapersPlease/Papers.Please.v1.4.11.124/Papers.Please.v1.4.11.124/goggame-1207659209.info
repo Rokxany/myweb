@@ -1,0 +1,24 @@
+{
+    "buildId": "56353505673715002",
+    "clientId": "49938184730706163",
+    "gameId": "1207659209",
+    "language": "English",
+    "languages": [
+        "en-US"
+    ],
+    "name": "Papers, Please",
+    "playTasks": [
+        {
+            "category": "game",
+            "isPrimary": true,
+            "languages": [
+                "en-US"
+            ],
+            "name": "Papers, Please",
+            "path": "PapersPlease.exe",
+            "type": "FileTask"
+        }
+    ],
+    "rootGameId": "1207659209",
+    "version": 1
+}
